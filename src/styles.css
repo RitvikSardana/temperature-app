@@ -1,0 +1,88 @@
+* {
+  font-family: "monteserrat", sans-serif;
+  /* text-align: center; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background: url("https://github.com/TylerPottsDev/weather-react/blob/master/src/assets/cold-bg.jpg?raw=true")
+    no-repeat center center/cover;
+  transition: 0.4s ease-out;
+}
+
+.Warm {
+  background: url("https://raw.githubusercontent.com/TylerPottsDev/weather-react/master/src/assets/warm-bg.jpg")
+    no-repeat center center/cover;
+  /* background-size: cover;
+  background-position: bottom; */
+  transition: 0.4s ease-out;
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.75)
+  );
+  padding: 25px;
+}
+
+input {
+  text-align: left;
+  display: block;
+  width: 100%;
+  padding: 1.3rem;
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: -25px;
+  color: #313131;
+  font-size: 20px;
+  margin-bottom: 10px;
+  /* transition: 0.4s ease; */
+}
+
+input:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.location-box {
+  text-align: center;
+  margin: 20px 0;
+  color: white;
+  font-size: 32px;
+  text-shadow: 1px 2px black;
+}
+
+.date {
+  font-size: 22px;
+}
+
+.weather-box {
+  text-align: center;
+  margin: 20px 0;
+  color: white;
+  font-size: 25px;
+  text-shadow: 1px 2px black;
+}
+
+.temp {
+  position: relative;
+  display: inline-block;
+  border-radius: 1rem;
+  padding: 40px 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 20px auto;
+  font-size: 100px;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather {
+  font-size: 50px;
+  text-shadow: 3px 3px rgba(50, 50, 50, 0.5);
+}
